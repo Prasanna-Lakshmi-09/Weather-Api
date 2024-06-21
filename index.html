@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APPLICATION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assests/logo.png" >
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main id="main_container">
+        <section id="card_container">
+         <form>
+            <input type="text" placeholder="Enter Your Location" id="location">
+            <input type="submit" value="Get Weather">
+         </form>
+         <article id="img_container">
+            <img src="./assests/def.png" id="img" alt="">
+         </article>
+         <article id="weather_Condition">
+            <h1>NULL</h1>
+         </article>
+         <article id="temp_humid">
+            <aside id="temp">
+                <h1 class="heading" >TEMPERATURE</h1>
+                <p class="para temp_value"><sup>0</sup>C</p>
+            </aside>
+            <aside id="humid">
+                <h1 class="heading">HUMIDITY</h1>
+                <p class="para humid_value">0 KMPH</p>
+            </aside>
+         </article>
+        </section>
+    </main>
+
+    
+    <script src="./script.js"></script>
+    </body>
+    </html>
+</body>
+</html>
